@@ -103,6 +103,9 @@ python run.py --task_name imputation --data PSM --root_path ./datasets/PSM/ \
 
 ### 3. Model Inference
 
+> *Illustrative* — adapt tensor shapes and the load path to your trained
+> checkpoint and the architecture in [`R3GAN/`](R3GAN/).
+
 ```python
 import torch
 import numpy as np
