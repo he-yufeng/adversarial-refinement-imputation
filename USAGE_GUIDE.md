@@ -46,6 +46,7 @@ import numpy as np
 import pandas as pd
 print("PyTorch version:", torch.__version__)
 print("CUDA available:", torch.cuda.is_available())
+print("MPS (Apple) available:", getattr(torch.backends, "mps", None) is not None and torch.backends.mps.is_available())
 ```
 
 ---
@@ -96,7 +97,7 @@ Open browser and go to: `http://127.0.0.1:8050`
 
 Navigate to R3GAN directory:
 ```bash
-cd TSImputation-master/R3GAN
+cd R3GAN
 ```
 
 #### Train on AirQuality Dataset
@@ -209,7 +210,7 @@ python gen_timeseries.py \
 
 Navigate to SSGAN directory:
 ```bash
-cd TSImputation-master/SSGAN
+cd SSGAN
 ```
 
 ### Prepare Data
@@ -258,7 +259,7 @@ python main.py \
 
 Navigate to TimesNet directory:
 ```bash
-cd TSImputation-master/TimesNet
+cd TimesNet
 ```
 
 ### Basic Training
@@ -513,7 +514,7 @@ python train.py --batch=16 --grad-accum=4
 #### 2. Module Not Found
 ```bash
 # Ensure you're in the right directory
-cd TSImputation-master/R3GAN
+cd R3GAN
 
 # Or add to Python path
 export PYTHONPATH="${PYTHONPATH}:$(pwd)"
