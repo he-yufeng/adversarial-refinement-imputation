@@ -67,7 +67,7 @@ python app_dad.py
 #### 训练 MTSIR3-GAN (R3GAN)
 
 ```bash
-cd TSImputation-master/R3GAN
+cd R3GAN
 
 # 在 AirQuality 数据集上训练
 python train.py --outdir=./training_runs --data=../datasets/AirQuality/pm25_missing.txt \
@@ -81,7 +81,7 @@ python train.py --outdir=./training_runs --data=../datasets/PSM/train.csv \
 #### 训练 SSGAN
 
 ```bash
-cd TSImputation-master/SSGAN
+cd SSGAN
 
 # 编辑 main.py 设置数据集和参数
 python main.py --epochs=50 --batch_size=64 --model=Based_on_BRITS
@@ -90,7 +90,7 @@ python main.py --epochs=50 --batch_size=64 --model=Based_on_BRITS
 #### 训练 TimesNet
 
 ```bash
-cd TSImputation-master/TimesNet
+cd TimesNet
 
 # 训练插补任务
 python run.py --task_name imputation --data PSM --root_path ./datasets/PSM/ \
@@ -160,7 +160,7 @@ MTSIR3-GAN/
 
 ### 数据集准备
 
-下载数据集并放置在 `TSImputation-master/datasets/` 目录：
+下载数据集并放置在 `datasets/` 目录：
 
 ```
 datasets/
@@ -254,7 +254,7 @@ datasets/
 | `gamma`           | R₁/R₂ 正则化强度                | 0.05 - 1.0            |
 | `NoiseDimension`  | 潜在噪声维度                    | 64-256                |
 
-查看 `TSImputation-master/R3GAN/train.py` 获取完整配置选项。
+查看 `R3GAN/train.py` 获取完整配置选项。
 
 ## 🤝 贡献指南
 
