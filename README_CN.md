@@ -58,7 +58,7 @@ python3 FMGAN/analysis.py
 
 论文代码在 [`FMGAN/`](FMGAN/)（**F**oundation-**M**odel 粗填补 + **GAN** 精修）：`models/`（R3GAN-1D 架构 + 频域判别器）、`train_refiner.py`（粗到精训练）、`foundation_model/`（MOMENT 包装）、`evaluation/`（指标 + BRITS/SAITS/CSDI baseline）、`data/`（统一加载，含 point/block/subsequence 缺失）、`scripts/`、`results/`（原始 results.json）、`analysis.py`、`paper/`（MiLeTS 2026 camera-ready）。
 
-> 早期硕士论文模型（R3GAN 图像式 MTSI）及其 SSGAN/TimesNet baseline 与 Dash GUI **不属于本论文**，已保留在 [`thesis-archive`](https://github.com/he-yufeng/adversarial-refinement-imputation/tree/thesis-archive) 分支。
+> 作者早期的**本科毕业设计（FYP）**代码（R3GAN 图像式 MTSI 适配 + SSGAN/TimesNet baseline + Dash GUI）**不属于本论文**，已保留在 [`fyp-archive`](https://github.com/he-yufeng/adversarial-refinement-imputation/tree/fyp-archive) 分支。
 
 ## 安装
 

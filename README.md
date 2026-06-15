@@ -86,7 +86,7 @@ This repo is the companion to the MiLeTS 2026 paper. The study code lives under 
 └── LICENSE                    # MIT
 ```
 
-> The earlier MS-thesis model (R3GAN adapted to image-style MTSI) and its SSGAN / TimesNet baselines and Dash GUI are **not** part of this paper; they are preserved on the [`thesis-archive`](https://github.com/he-yufeng/adversarial-refinement-imputation/tree/thesis-archive) branch.
+> The author's earlier undergraduate final-year project (FYP) — an R3GAN adaptation to image-style MTSI, plus SSGAN / TimesNet baselines and a Dash GUI — is **not** part of this paper; it is preserved on the [`fyp-archive`](https://github.com/he-yufeng/adversarial-refinement-imputation/tree/fyp-archive) branch.
 
 ## Setup
 
