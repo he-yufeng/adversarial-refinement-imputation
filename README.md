@@ -3,7 +3,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI](https://github.com/he-yufeng/r3gan-time-series-imputation/actions/workflows/ci.yml/badge.svg)](https://github.com/he-yufeng/r3gan-time-series-imputation/actions/workflows/ci.yml)
+[![CI](https://github.com/he-yufeng/adversarial-refinement-imputation/actions/workflows/ci.yml/badge.svg)](https://github.com/he-yufeng/adversarial-refinement-imputation/actions/workflows/ci.yml)
 
 [中文文档](README_CN.md) | English
 
@@ -86,7 +86,7 @@ This repo is the companion to the MiLeTS 2026 paper. The study code lives under 
 └── LICENSE                    # MIT
 ```
 
-> The earlier MS-thesis model (R3GAN adapted to image-style MTSI) and its SSGAN / TimesNet baselines and Dash GUI are **not** part of this paper; they are preserved on the [`thesis-archive`](https://github.com/he-yufeng/r3gan-time-series-imputation/tree/thesis-archive) branch.
+> The earlier MS-thesis model (R3GAN adapted to image-style MTSI) and its SSGAN / TimesNet baselines and Dash GUI are **not** part of this paper; they are preserved on the [`thesis-archive`](https://github.com/he-yufeng/adversarial-refinement-imputation/tree/thesis-archive) branch.
 
 ## Setup
 
