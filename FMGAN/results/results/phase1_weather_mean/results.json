@@ -1,0 +1,41 @@
+{
+  "dataset": "Weather",
+  "coarse_method": "mean",
+  "coarse_metrics": {
+    "MAE": 0.7283125519752502,
+    "MSE": 1.0070362091064453,
+    "RMSE": 1.003511905670166,
+    "MRE": 1.0404942035675049
+  },
+  "refined_metrics": {
+    "MAE": 0.22312985360622406,
+    "MSE": 0.21975818276405334,
+    "RMSE": 0.46878373622894287,
+    "MRE": 2.2187564373016357
+  },
+  "improvement_pct": 69.36,
+  "best_val_mae": 0.21051809191703796,
+  "args": {
+    "dataset": "Weather",
+    "seq_len": 96,
+    "missing_rate": 0.25,
+    "coarse": "mean",
+    "noise_dim": 32,
+    "width": 64,
+    "n_stages": 3,
+    "n_blocks": 2,
+    "cardinality": 16,
+    "freq_branch": true,
+    "epochs": 200,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "gamma": 0.5,
+    "lambda_recon": 20.0,
+    "lambda_freq": 2.0,
+    "ema": true,
+    "augment": true,
+    "stride_divisor": 4,
+    "outdir": "results/phase1_weather_mean",
+    "log_every": 10
+  }
+}

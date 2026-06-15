@@ -213,4 +213,14 @@ PURE-GUIv2.0/uploaded_files/
 handoff/
 **/SUBMIT_TO_*.md
 **/PAPER_POLISH_NOTES.md
-**/main_milets2026*
+# (the MiLeTS 2026 paper is now accepted; its camera-ready tex/pdf ARE published)
+
+# Internal docs from the review / camera-ready process — never publish
+FMGAN/NEGATIVE_RESULT_DRAFT.md
+FMGAN/paper/CAMERA_READY_EMAIL.md
+FMGAN/paper/REVIEWS_MILETS2026.md
+FMGAN/paper/submissions/
+
+# Superseded non-sigconf draft (the *_sigconf version is the published camera-ready)
+FMGAN/paper/main_milets2026.tex
+FMGAN/paper/main_milets2026.pdf

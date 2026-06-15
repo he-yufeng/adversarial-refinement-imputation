@@ -3,11 +3,12 @@
 # Run inside tmux on cloud GPU
 set -e
 
-source /root/miniconda3/etc/profile.d/conda.sh
+PROJ_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+eval "$(conda shell.bash hook)" 2>/dev/null || true
 conda activate base
-export HF_ENDPOINT=https://hf-mirror.com
-export PYTHONPATH=/root/MTSIR3-GAN/FMGAN:$PYTHONPATH
-cd /root/MTSIR3-GAN/FMGAN
+export HF_ENDPOINT=https://hf-mirror.com   # 国内镜像; 墙外可注释/改官方
+export PYTHONPATH="$PROJ_DIR:$PYTHONPATH"
+cd "$PROJ_DIR"
 
 echo "============================================"
 echo "Phase 1 Batch Experiments"

@@ -1,0 +1,41 @@
+{
+  "dataset": "AirQuality",
+  "coarse_method": "linear",
+  "coarse_metrics": {
+    "MAE": 0.15099911391735077,
+    "MSE": 0.10426212847232819,
+    "RMSE": 0.32289648056030273,
+    "MRE": 1.0960594415664673
+  },
+  "refined_metrics": {
+    "MAE": 0.15556448698043823,
+    "MSE": 0.10604013502597809,
+    "RMSE": 0.3256380558013916,
+    "MRE": 1.0880639553070068
+  },
+  "improvement_pct": -3.02,
+  "best_val_mae": 0.12499043345451355,
+  "args": {
+    "dataset": "AirQuality",
+    "seq_len": 36,
+    "missing_rate": 0.25,
+    "coarse": "linear",
+    "noise_dim": 32,
+    "width": 64,
+    "n_stages": 3,
+    "n_blocks": 2,
+    "cardinality": 16,
+    "freq_branch": true,
+    "epochs": 300,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "gamma": 0.5,
+    "lambda_recon": 20.0,
+    "lambda_freq": 2.0,
+    "ema": true,
+    "augment": true,
+    "stride_divisor": 4,
+    "outdir": "results/phase1_air_aug",
+    "log_every": 10
+  }
+}

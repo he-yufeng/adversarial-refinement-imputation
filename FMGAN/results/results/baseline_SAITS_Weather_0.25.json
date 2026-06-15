@@ -1,0 +1,14 @@
+[
+  {
+    "MAE": 0.061803556978702545,
+    "MSE": 0.03146600350737572,
+    "RMSE": 0.1773865967988968,
+    "MRE": 0.41854268312454224,
+    "train_time_s": 76.8,
+    "infer_time_s": 0.051,
+    "method": "SAITS",
+    "dataset": "Weather",
+    "missing_rate": 0.25,
+    "missing_pattern": "point"
+  }
+]

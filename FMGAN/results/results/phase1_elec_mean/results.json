@@ -1,0 +1,41 @@
+{
+  "dataset": "Electricity",
+  "coarse_method": "mean",
+  "coarse_metrics": {
+    "MAE": 0.8314692974090576,
+    "MSE": 0.9959427714347839,
+    "RMSE": 0.9979693293571472,
+    "MRE": 1.0088245868682861
+  },
+  "refined_metrics": {
+    "MAE": 0.42895805835723877,
+    "MSE": 0.36229971051216125,
+    "RMSE": 0.6019133925437927,
+    "MRE": 74470.8359375
+  },
+  "improvement_pct": 48.41,
+  "best_val_mae": 0.42270541191101074,
+  "args": {
+    "dataset": "Electricity",
+    "seq_len": 96,
+    "missing_rate": 0.25,
+    "coarse": "mean",
+    "noise_dim": 32,
+    "width": 128,
+    "n_stages": 3,
+    "n_blocks": 2,
+    "cardinality": 32,
+    "freq_branch": true,
+    "epochs": 50,
+    "batch_size": 64,
+    "lr": 0.0001,
+    "gamma": 0.5,
+    "lambda_recon": 20.0,
+    "lambda_freq": 2.0,
+    "ema": true,
+    "augment": false,
+    "stride_divisor": 4,
+    "outdir": "results/phase1_elec_mean",
+    "log_every": 10
+  }
+}

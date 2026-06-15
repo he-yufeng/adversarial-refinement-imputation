@@ -35,8 +35,9 @@ pip install -r requirements.txt
 # 4. Set PYTHONPATH so all FMGAN modules can be imported
 echo "[4/6] Setting PYTHONPATH..."
 export PYTHONPATH="$PROJ_DIR:$PYTHONPATH"
-# Also persist for future shells
-echo "export PYTHONPATH=\"$PROJ_DIR:\$PYTHONPATH\"" >> ~/.bashrc
+# Also persist for future shells (macOS=zsh, Linux=bash)
+case "${SHELL:-}" in *zsh) _RC="$HOME/.zshrc" ;; *) _RC="$HOME/.bashrc" ;; esac
+echo "export PYTHONPATH=\"$PROJ_DIR:\$PYTHONPATH\"" >> "$_RC"
 
 # 5. Download MOMENT pretrained weights (cache locally to avoid re-download)
 echo "[5/6] Downloading MOMENT pretrained weights..."
