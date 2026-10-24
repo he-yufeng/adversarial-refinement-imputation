@@ -13,6 +13,7 @@ Code and paper for:
 > Yufeng He (The University of Hong Kong)
 > *[12th SIGKDD Workshop on Mining and Learning from Time Series (**MiLeTS 2026**)](https://kdd-milets.github.io/milets2026/).*
 > 📄 Paper: [`FMGAN/paper/main_milets2026_sigconf.pdf`](FMGAN/paper/main_milets2026_sigconf.pdf) · [official workshop copy](https://kdd-milets.github.io/milets2026/accepted%20papers/16main_milets2026_sigconf%201.pdf)
+> [Audited arXiv preprint: 2609.23102](https://arxiv.org/abs/2609.23102) incorporates the post-workshop reproducibility audit of the saved runs; it is distinct from the original workshop camera-ready linked above.
 
 ---
 

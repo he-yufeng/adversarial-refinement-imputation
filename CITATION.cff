@@ -20,3 +20,6 @@ preferred-citation:
   collection-title: "12th SIGKDD Workshop on Mining and Learning from Time Series (MiLeTS)"
   year: 2026
   url: "https://kdd-milets.github.io/milets2026/accepted%20papers/16main_milets2026_sigconf%201.pdf"
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/2609.23102v1"

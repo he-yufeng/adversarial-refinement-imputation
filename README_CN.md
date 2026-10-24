@@ -12,6 +12,7 @@
 > 何宇峰（香港大学）
 > *[第 12 届 SIGKDD 时间序列挖掘与学习研讨会（**MiLeTS 2026**）](https://kdd-milets.github.io/milets2026/)。*
 > 📄 论文：[`FMGAN/paper/main_milets2026_sigconf.pdf`](FMGAN/paper/main_milets2026_sigconf.pdf) · [研讨会官方版本](https://kdd-milets.github.io/milets2026/accepted%20papers/16main_milets2026_sigconf%201.pdf)
+> [审计后的 arXiv 预印本：2609.23102](https://arxiv.org/abs/2609.23102) 纳入了研讨会后的已保存运行复现审计，与上方原始 workshop 定稿分开保留。
 
 ---
 
